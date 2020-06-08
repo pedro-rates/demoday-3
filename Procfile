@@ -1,1 +1,0 @@
-web: java -jar build/libs/demo-dd3.jar
