@@ -5,6 +5,6 @@ phases:
       - gradle clean build
 
 artifacts:
-  type: zip
+  type: jar
   files:
     - 'build/libs/*.jar'
