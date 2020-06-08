@@ -10,6 +10,6 @@ public class DemoDD3 {
 	
 	public static void initializeApp() {
 		 get("/", (req, res) -> "Success");
-		 get("/hello", (req, res) -> "Hello World");
+		 get("/hello", (req, res) -> "Hello AWS");
 	}
 }
