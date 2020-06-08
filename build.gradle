@@ -7,8 +7,8 @@
  */
 
 plugins {
-	id 'java-library'
     id 'java'
+    id 'application'
 }
 
 repositories {
@@ -17,11 +17,10 @@ repositories {
     jcenter()
 }
 
-dependencies {
 
-    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
-    implementation 'com.google.guava:guava:28.0-jre'
-    
+mainClassName = 'demo.dd3.DemoDD3'
+
+dependencies {
     compile 'com.sparkjava:spark-core:2.8.0'
     
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
