@@ -1,1 +1,1 @@
-make: gradle build
+build: gradle build
